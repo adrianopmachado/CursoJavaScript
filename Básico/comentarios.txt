@@ -16,3 +16,11 @@ Regras para criação de variáveis
 6 - Utilizamos por convenção camelCase = nomeDoCliente 
 7 - Não podemos redeclarar variáveis com let
 8 - Não utilize VAR, utlize LET
+
+Utilizar templete string no console.log
+Exemplo
+const nome = 'Adriano';
+let idade = 33;
+let anoAtual = 2022
+let anoNascimento = anoAtual - idade;
+console.log(`${nome} nasceu em ${anoNascimento}.`)
